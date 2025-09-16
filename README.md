@@ -21,6 +21,11 @@ DOI:10.1109/ACCESS.2024.3521946 (https://ieeexplore.ieee.org/document/10813361)
 * **Large-scale Dataset**: A comprehensive dataset comprising 85,500 samples across 19 bands.
 * **Versatile Usage**: Includes both object detection and normal data, suitable for both supervised and unsupervised learning approaches.
 
+
+## Notes on the ADC for power calibration (described in metadata json file)
+* The iq_level_offset is a calibration correction expressed in dB, i.e., an offset applied to the raw IQ values (integer outputs from the ADC) to convert them into actual power levels in dBm.
+* The reference_level specifies the absolute power level (in dBm) to which the raw IQ values correspond. The unit of iq_level_offset is dBµV. For example, if you add –26.191406 to the IQ power data, you obtain the value in dBµV, and by subtracting 107 from that, you obtain the value in dBm. The unit of reference_level is dBmV.
+  
 ## Dataset Structure
 |-- Dataset/   
 |  |--IQ data.zip  
