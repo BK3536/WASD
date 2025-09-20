@@ -50,9 +50,9 @@ DOI:10.1109/ACCESS.2024.3521946 (https://ieeexplore.ieee.org/document/10813361)
 
 ## Dataset for quick evaluation (examples from each band)
 
-* In preparation
+* In preparation (https://huggingface.co/datasets/byungkwankim/WASD)
 
-## Dataset Link (Whole Dataset)
+## Dataset Link (Whole Dataset, Google Drive)
 
 * [**Chunk 1**](https://drive.google.com/file/d/1055_Mqq3iJJLVsYirFbKue0vz0quemtd/view?usp=drive_link)
 * [**Chunk 2**](https://drive.google.com/file/d/1upenUkhVKsFYPYQg494ShImL_CmGgNYz/view?usp=drive_link)
