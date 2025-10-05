@@ -9,8 +9,9 @@ WASD (Wireless Anomaly Signal Dataset) is designed for anomaly signal detection 
 DOI:10.1109/ACCESS.2024.3521946 (https://ieeexplore.ieee.org/document/10813361)
 
 ## Related Works 
-Jinha Kim, Sunji Oh, Hyeongwoo Kim, and Byungkwan Kim, "Spectrum Anomaly Detection Using Deep Neural Networks: A Wireless Signal Perspective", IEEE Access, https://doi.org/10.1109/ACCESS.2025.3603216 
-Hyeongwoo Kim, Jinha Kim, Youngseo Ji and Byungkwan Kim, "Anomaly Detection for Wireless Cellular Communication based on Synthetic Anomaly", IEEE Access, https://doi.org/10.1109/ACCESS.2025.3584113 
+* Jinha Kim, Sunji Oh, Hyeongwoo Kim, and Byungkwan Kim, "Spectrum Anomaly Detection Using Deep Neural Networks: A Wireless Signal Perspective", IEEE Access, https://doi.org/10.1109/ACCESS.2025.3603216
+  
+*Hyeongwoo Kim, Jinha Kim, Youngseo Ji and Byungkwan Kim, "Anomaly Detection for Wireless Cellular Communication based on Synthetic Anomaly", IEEE Access, https://doi.org/10.1109/ACCESS.2025.3584113 
 
 ## Dataset Features
 
