@@ -53,9 +53,9 @@ DOI:10.1109/ACCESS.2024.3521946 (https://ieeexplore.ieee.org/document/10813361)
 * **Data Loaders**: Example jupyter notebook (`.ipynb` files) for loading the IQ data, spectrogram datas into python workspaces.
 * **Anomaly Signal Generation Examples**: Example jupyter notebook (`.ipynb` files) for generating abnormal wireless signal (tone, chirp, pulse) with the fading model. The detailed process and information can be found in the paper.
 
-## Dataset for quick evaluation (examples from each band)
+## Splitted Dataset for quick evaluation (binary files from each band)
 
-* In preparation (https://huggingface.co/datasets/byungkwankim/WASD)
+* External Link : https://ieee-dataport.org/open-access/wasd-wireless-anomaly-signal-dataset
 
 ## Dataset Link (Whole Dataset, Google Drive)
 
