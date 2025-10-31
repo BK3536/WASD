@@ -27,9 +27,16 @@ DOI:10.1109/ACCESS.2024.3521946 (https://ieeexplore.ieee.org/document/10813361)
 * **Versatile Usage**: Includes both object detection and normal data, suitable for both supervised and unsupervised learning approaches.
 
 
-## Notes on the ADC for power calibration (described in metadata json file)
+
+## Notes 
+* ** The ADC power calibration (described in metadata json file)
 * The iq_level_offset is a calibration correction expressed in dB, i.e., an offset applied to the raw IQ values (integer outputs from the ADC) to convert them into actual power levels in dBm.
 * The reference_level specifies the absolute power level (in dBm) to which the raw IQ values correspond. The unit of iq_level_offset is dBµV. For example, if you add –26.191406 to the IQ power data, you obtain the value in dBµV, and by subtracting 107 from that, you obtain the value in dBm. The unit of reference_level is dBmV.
+
+* The total number of spectrogram samples (images) is 85,500 (19 LTE/5G bands * 4,500 samples per band).
+* The approximately 140,000 entries refer not to the number of images but to the total number of bounding boxes (anomalous signal instances) across the dataset. Since multiple anomalies (tone, chirp, pulse) can exist within a single spectrogram, the number of labeled bounding boxes naturally exceeds the number of images.
+* The file structure is as follows: each .npy file represents one spectrogram matrix, while the CSV files (e.g., Spectrum_label.csv) contain one or more bounding boxes per image, depending on the overlaid abnormal signals.
+
   
 ## Dataset Structure
 |-- Dataset/   
