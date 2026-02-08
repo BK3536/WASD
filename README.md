@@ -18,7 +18,6 @@ WASD is a wireless anomaly dataset for spectrum-level anomaly detection in fixed
 - Bounding-box labels for anomaly localization.
 
 ![Band Examples](./images/band_example.png)
-![Fading Data Example](./images/fading_data_example.png)
 ![Data Synthesis](./images/data_synthesis.png)
 
 ## Repository Contents
